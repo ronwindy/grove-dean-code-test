@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICatFactsService, CatFactsService>();
+builder.Services.AddScoped<HttpClient>();
 builder.Services.AddCors();
 
 var app = builder.Build();

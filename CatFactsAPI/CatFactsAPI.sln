@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatFactsAPI", "CatFactsAPI\CatFactsAPI.csproj", "{7DFA9400-CAA2-431F-8134-F8F1E316C6DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatFactsAPI.Test", "CatFactsAPI.Test\CatFactsAPI.Test.csproj", "{8AE6A4A2-0330-4B4E-94D5-1C89984D8B19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7DFA9400-CAA2-431F-8134-F8F1E316C6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFA9400-CAA2-431F-8134-F8F1E316C6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFA9400-CAA2-431F-8134-F8F1E316C6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE6A4A2-0330-4B4E-94D5-1C89984D8B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE6A4A2-0330-4B4E-94D5-1C89984D8B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE6A4A2-0330-4B4E-94D5-1C89984D8B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE6A4A2-0330-4B4E-94D5-1C89984D8B19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
