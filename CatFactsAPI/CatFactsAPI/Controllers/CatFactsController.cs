@@ -20,8 +20,6 @@ namespace CatFactsAPI.Controllers
         {
             var publicAPIUrl = configuration["PublicAPI:BaseUrl"];
             var catFacts = await catFactsService.GetCatFacts($"{publicAPIUrl}/facts");
-            if (catFacts.Count() == 0) return NotFound();
-
             return Ok(catFacts);
         }
     }
